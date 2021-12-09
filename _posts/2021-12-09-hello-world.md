@@ -22,8 +22,8 @@ My plan is to start with the basics.
 What is a cryptocurrency?
 How are they generated and transferred?
 Should we even call them a currency?
-Afterwards we will go down the rabbit hole to look at NFTs (Non-fungible tokens) and the promises of Decentralized
-Finance.
+Afterwards we will go down the rabbit hole to look at NFTs (Non-Fungible Tokens) and the promises of DeFi (Decentralized
+Finance).
 
 Apart from my desire to expand my knowledge I'm an avid reader and will share insights into books that I find interesting.
 I also spend a lot of time thinking about personal finance topics like saving, investing, and meme-stock gambling.
