@@ -1,0 +1,64 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Steffen911
+email: steffenschmitz@hotmail.de
+description: >-
+  This is my personal blog. I will talk a lot about books, learning things about crypto,
+  and personal finance in general.
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Author
+author:
+  name: Steffen Schmitz
+  email: steffenschmitz@hotmail.de
+  url: steffen911.github.io
+
+permalink: /:title/
+paginate: 5
+paginate_path: "/:num/"
+date_format: "%b %-d, %Y"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+related_posts_section:
+  max_count:        5
+  min_common_tags:  2
+
+social:
+  email: steffenschmitz@hotmail.de
+  github: https://github.com/steffen911
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
