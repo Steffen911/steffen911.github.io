@@ -148,4 +148,23 @@ fluctuates widely from month to month.
 All in all, cryptocurrencies are not mainstream means of exchanges in my opinion and, therefore, do not qualify as
 true currencies.
 
-## (tbd) stablecoins
+## Can we stabilize things?
+
+If you like your crypto coins like your isotopes stablecoins might be the thing for you.
+Instead of fluctuating (wildly) compared to some baseline currency they tie their value to it and keep the same
+exchange rate.
+How does that work out?
+Let us assume that we want to create a stable coin linked to the US Dollar.
+There are two main ways to produce and maintain a stable coin.
+One is to have an underlying company that accepts a transfer in US Dollar via the traditional financial system.
+It keeps them in a save deposit and issues a new coin that is worth exactly one US Dollar.
+Also, you can ask this company to redeem your coin for a US Dollar.
+This is a crypto-reinvention of the representative money we mentioned earlier.
+Another, more interesting, approach is the securitization of another cryptocurrency.
+I can use smart contract (watch out for a follow-up post on that) to create 1 US Dollar of worth in my stable coin
+by putting something like 3 US Dollars worth of another coin, e.g. Bitcoin.
+Here, we include some safety margin to still pay out 1 US Dollar if the exchange rate of Bitcoin drops.
+The underlying security is sold automatically once it reaches the stable value.
+What happens if many people try to redeem their stable coins at the same time?
+Well, imagine the 2008 financial crisis on steroids without any regulators or central banks.
+Better keep your popcorn ready.
