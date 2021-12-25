@@ -136,6 +136,8 @@ e.g. Bitcoin.
 A Pizza could always cost 0.5 Bitcoin.
 In case I want to pay in Euro I would pay the equivalent at a current exchange rate.
 I'm not aware of any case where this is the case.
+Most goods have a price in a traditional, government issued currency, and I can pay the vendor with a variable amount
+of cryptos at the given exchange rate.
 I assume that this is due to the tax code.
 Businesses will have to pay taxes in the local currency and, therefore, have to assign a price in the local currency
 to their offerings.
