@@ -6,7 +6,7 @@ It will cover interesting books, crypto, personal finance, and anything else tha
 ## Setup
 
 This project uses [Jekyll](https://jekyllrb.com) to render.
-It was setup without installing Ruby and Jekyll by utilizing Docker.
+It was set up without installing Ruby and Jekyll by utilizing Docker.
 
 ```shell
 # initial setup

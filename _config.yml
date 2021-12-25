@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Steffen911
+title: steffen911
 email: steffenschmitz@hotmail.de
 description: >-
   This is my personal blog. I will talk a lot about books, learning things about crypto,
@@ -50,6 +50,7 @@ related_posts_section:
 social:
   email: steffenschmitz@hotmail.de
   github: https://github.com/steffen911
+  linkedin: https://www.linkedin.com/in/steffenschmitz/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
