@@ -144,6 +144,10 @@ incentive to bind their prices to a volatile cryptocurrency.
 Also, most employees would be unhappy to receive a salary that, adjusted for most of their day-to-day purchases,
 fluctuates widely from month to month.
 
+Another problem I see with distributed setups like these is that the transaction fees need to satisfy all participants
+in the network and not just a single vendor.
+If 100 people have to sign off on my transaction it is likely more expensive than having a single party signing them off.
+
 All in all, cryptocurrencies are in my opinion not mainstream means of exchanges and, therefore, do not qualify as
 true currencies.
 
