@@ -45,7 +45,7 @@ sass:
 
 related_posts_section:
   max_count:        5
-  min_common_tags:  2
+  min_common_tags:  1
 
 social:
   email: steffenschmitz@hotmail.de
