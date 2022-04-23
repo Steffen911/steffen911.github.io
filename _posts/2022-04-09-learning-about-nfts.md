@@ -5,10 +5,10 @@ date:   2022-04-09 13:54:00 +0200
 categories: [crypto, nft]
 ---
 
-With the hype of cryptocurrencies fading in 2022, I set out on a quest to learn what this was all about.
+With the hype of cryptocurrencies fading a bit, I set out on a quest to learn what this was all about.
 The most prominent use of blockchains, aside from crypto currencies, seems to be the creation, storage, and
 exchange of pixelated images.
-I remember a time when I just entered school, where everyone collected Pokémon and Yu-Gi-Oh! cards.
+I remember a time after I just entered school, where everyone collected Pokémon and Yu-Gi-Oh! cards.
 It was about creating the perfect collection to win every duel.
 I feel like NFTs (Non-Fungible Tokens) are also about collecting things, but without the thrill of the fight.
 
@@ -20,7 +20,7 @@ on how to use the blockchain and a brief introduction into smart contracts.
 The blogpost [How to write & deploy an NFT](https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/)
 on ethereum.org was the perfect starting point from there on.
 
-In this post, I will talk you through the steps I took and the learnings I had a long the way.
+In this post, I will walk you through the steps I took and the learnings I had a long the way.
 The main takeaway is that it is surprisingly expensive to share pixelated artworks with the world.
 There is always some charge for every step along the way.
 Anyway, let us start at the beginning.
@@ -58,14 +58,14 @@ The programs itself are small and simple, though.
 
 We start by getting some free money from the generous test network runners and are ready to go.
 
-We use a library to define an ERC-721 token (the technical standard for NFTs) which should not be fixed up with
+We use a library to define an ERC-721 token (the technical standard for NFTs) which should not be confused with
 ERC-20 token (which seems to cover fungible tokens, i.e. crypto currencies).
 That library receives a name, we compile it, and use a small script to send it to the blockchain.
 Apparently, that is all there is to have the generic NFT capability available.
 Now, we upload an image on Pinata, write some metadata that we also upload to Pinata, and send a transaction to our
 contract.
 You can view my first NFT on the test network on [etherscan.io](https://ropsten.etherscan.io/address/0xab8f53da7cdf93ad5ae48cd0322e6caed0eb6051).
-It is a picture of the Siegessaeule in Berlin that you can view below or on the InterPlanetary File System (I love it!)
+It is a picture of the Siegessaeule in Berlin that you can view below or on the InterPlanetary File System (I love the name!)
 on [pinata.cloud](https://gateway.pinata.cloud/ipfs/QmUQDaeiK6e1qM8HJHgKC6giRAMdqbQSPNqZJQeB75VnvG).
 
 ![NFT Siegessaeule](/assets/2022-04-09-learning-about-nfts/siegessaeule.jpeg)
@@ -78,7 +78,7 @@ Time to do it on the real blockchain.
 I already had about 100€ worth of Ether in my crypto.com wallet and naively thought that might be enough.
 Getting the Ether into my Metamask wallet was the first challenge, though.
 After I registered my external wallet in their app, they made me wait 24 hours before any transfer to it was possible.
-Sometimes I am patient, and it was getting late, so let us call it a day.
+As it was getting late, I called it a day and proceeded the following day.
 
 New day, new problem.
 Sending all my Ether to the wallet proved harder than expected, too.
@@ -94,7 +94,7 @@ Another transfer to my Metamask wallet with about 5€ in transaction fees later
 "Insufficient funds". Double welp.
 
 I play with the gasPrice and gas settings in my config files and feel like in a high school physics class.
-Do I have to multiply by a million or a billion here?
+Do I have to multiply by a million or a billion to get the units right?
 At some point my transaction goes through, I feel excitement, and head over to etherscan.io to view my transaction.
 "Pending. Estimated time > 1h".
 My pricing was off by three orders of magnitude.
@@ -117,6 +117,10 @@ Uploading images for 15-25€ a piece seems like peanuts now.
 Here, I remembered last year's article in the Economist about their [NFT auction](https://www.economist.com/the-economist-explains/2021/10/21/why-we-are-selling-our-cover-as-an-nft).
 They also put a price tag of about 400€ on their NFT creation.
 
+I do not see how anyone can expect to run actually useful services on that foundation.
+Deployments at big cloud vendors come significantly cheaper and one would have to rethink common practices like
+continuous deployment.
+
 ## Takeaways
 
 This post got longer than expected, but it reflects my astonishment.
@@ -124,3 +128,5 @@ I understand that people want to get paid for their services, but this seems a l
 Building a service like Instagram on a blockchain where every post costs 20€ and every like 3-4€ does not seem attractive.
 I feel like I understand NFTs and blockchain interactions much better now, but they leave me even less convinced of their merits.
 Am I missing anything?
+In the future I might try to auction off one of my newly minted NFTs to recoup some of the losses.
+Stay tuned to learn more about that experience.
