@@ -123,7 +123,6 @@ continuous deployment.
 
 ## Takeaways
 
-This post got longer than expected, but it reflects my astonishment.
 I understand that people want to get paid for their services, but this seems a little out of line.
 Building a service like Instagram on a blockchain where every post costs 20€ and every like 3-4€ does not seem attractive.
 I feel like I understand NFTs and blockchain interactions much better now, but they leave me even less convinced of their merits.
