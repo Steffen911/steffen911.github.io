@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learning about NFTs - The expensive way"
-date:   2022-04-09 13:54:00 +0200
+date:   2022-04-23 13:12:00 +0200
 categories: [crypto, nft]
 ---
 
@@ -68,7 +68,7 @@ You can view my first NFT on the test network on [etherscan.io](https://ropsten.
 It is a picture of the Siegessaeule in Berlin that you can view below or on the InterPlanetary File System (I love the name!)
 on [pinata.cloud](https://gateway.pinata.cloud/ipfs/QmUQDaeiK6e1qM8HJHgKC6giRAMdqbQSPNqZJQeB75VnvG).
 
-![NFT Siegessaeule](/assets/2022-04-09-learning-about-nfts/siegessaeule.jpeg)
+![NFT Siegessaeule](/assets/2022-04-23-learning-about-nfts/siegessaeule.jpeg)
 
 Well, that was easy.
 Time to do it on the real blockchain.
